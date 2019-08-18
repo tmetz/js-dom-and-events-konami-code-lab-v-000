@@ -17,6 +17,6 @@ function parseCode(e) {
 
 function init() {
   // Write your JavaScript code inside the init() function
-  document.addEventListener('keydown', parseCode);
+  document.body.addEventListener('keydown', parseCode);
 
 }
